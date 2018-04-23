@@ -44,6 +44,9 @@
         .a{
             margin-left: 47%;
         }
+        .netEasy{
+            margin-left: 42%;
+        }
     </style>
 </head>
 <body bgcolor="#7fff00">
@@ -62,6 +65,11 @@
     <div class="a">
         <a href="login.html">点击进入网站的登录页面</a>
     </div>
+    <div class="netEasy">
+        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=3448933&auto=1&height=430">
+        </iframe>
+    </div>
+
 
 </body>
 </html>
