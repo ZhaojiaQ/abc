@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>欢迎来到ZJQ的主页面</title>
+    <title>欢迎来到ZJQ</title>
 </head>
 <body>
-    
+    <a href="login.html">点击进入到网站登录页面</a>
 </body>
 </html>
