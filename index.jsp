@@ -9,67 +9,98 @@
 <html>
 <head>
     <title>欢迎来到ZJQ的主界面</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
     <style type="text/css">
-        h1{
+        h1 {
             text-align: center;
             text-shadow: 2px 2px 2px #FF0000;
             color: coral;
             font-family: sans-serif;
 
         }
-        h2{
+
+        h2 {
             text-align: right;
             text-shadow: 2px 2px 2px #FF0000;
             color: coral;
             font-family: sans-serif;
         }
-        p{
 
+        .message {
+            background: aquamarine;
             font-family: "YaHei Consolas Hybrid";
-            text-align: center;
+            text-align: left;
 
         }
-        a:link,a:visited
-        {
-            display:block;
-            font-weight:bold;
-            color:#FFFFFF;
-            background-color:#98bf21;
-            width:120px;
-            text-align:center;
-            padding:4px;
-            text-decoration:none;
-        }
-        .a{
-            margin-left: 47%;
-        }
-        .netEasy{
-            margin-left: 42%;
+
+        a:link, a:visited {
+            display: block;
+            font-weight: bold;
+            color: #FFFFFF;
+            background-color: #98bf21;
+            width: 120px;
+            text-align: center;
+            padding: 4px;
+            text-decoration: none;
         }
     </style>
 </head>
-<body bgcolor="#7fff00">
-    <h1>个人信息简介</h1>
-    <h2>主页标语：爱是一道光，绿到你发慌 </h2>
-    <div class="personal">
-        <p>你好，这是赵佳强</p>
-        <p>邮箱地址：this@iszjq.cc</p>
-        <p>毕业院校：安徽科技学院</p>
-        <p>专业：计算机科学与技术</p>
-        <p>学号：2701150237</p>
-        <p>帅照：<img src="" alt="还没有呢"></p>
-    </div>
-        </br>
-        </br>
-    <div class="a">
-        <a href="login.html">点击进入网站的登录页面</a>
-    </div>
-    <div class="netEasy">
-        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=3448933&auto=1&height=430">
-        </iframe>
-    </div>
+<body>
 
+<div class="container">
+    <h1>杂七杂八主界面</h1>
+    <h2>爱你恨你怨你念你深情永不变
+        <small>别忘了寂寞的山谷的角落野百合也有春天</small>
+    </h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="message">
+                <h3 align="center">个人信息简介</h3>
+                <p>你好，这是赵佳强</p>
+                <p>邮箱地址：this@iszjq.cc</p>
+                <p>毕业院校：安徽科技学院</p>
+                <p>专业：计算机科学与技术</p>
+                <p>学号：2701150237</p>
+                <p>帅照：<img src="" alt="还没有呢"></p>
+            </div>
+
+        </div>
+
+        <div class="col-md-4" align="center">
+            </br>
+            <a href="login.html">点击进入网站的登录页面</a>
+            </br>
+            </br>
+            <p>你还没有账号吗？</p>
+            <a href="#">点击进入网站的注册界面</a>
+        </div>
+        <div class="col-md-4">
+            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450
+                    src="//music.163.com/outchain/player?type=0&id=3448933&auto=1&height=430">
+            </iframe>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h3>第一列</h3>
+            <p>学的不仅是技术，更是梦想！</p>
+            <p>再牛逼的梦想,也抵不住你傻逼似的坚持！</p>
+        </div>
+        <div class="col-md-4">
+            <h3>第二列</h3>
+            <p>学的不仅是技术，更是梦想！</p>
+            <p>再牛逼的梦想,也抵不住你傻逼似的坚持！</p>
+        </div>
+        <div class="col-md-4">
+            <h3>第三列</h3>
+            <p>学的不仅是技术，更是梦想！</p>
+            <p>再牛逼的梦想,也抵不住你傻逼似的坚持！</p>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
