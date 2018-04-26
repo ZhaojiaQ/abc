@@ -69,6 +69,7 @@
 
         <div class="col-md-4" align="center">
             </br>
+            <p>已有账号？</p>
             <a href="login.html">点击进入网站的登录页面</a>
             </br>
             </br>
