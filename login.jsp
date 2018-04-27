@@ -16,9 +16,11 @@
     <meta name="viewport" content="width=device-width,inital-scale=1">
     <script type="text/javascript" src="JavaScript/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
-    <link href="bootstrap-3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <script type="text/javascript" src="JavaScript/login.js"></script>
+    <link href="bootstrap-3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+
 </head>
+<body>
 <body>
 <div class="container">
 
@@ -30,7 +32,7 @@
                 <div class="col-md-5">
                     <input type="text" id="userName" class="form-control" name="userName" placeholder="请输入用户名">
                 </div>
-                <div class="col-md-4" id="userSpan"></div>
+                <div class="col-md-4" id="userNameSpan"></div>
             </div>
             <%--id是为Javas服务的，而name是为了jsp接受数据服务的--%>
             <div class="form-group" id="passwordDiv">
