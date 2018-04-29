@@ -40,7 +40,9 @@
             flag = true;
         }
     }
+    rs.close();
     psmt.close();
+    conn.close();
 %>
 
 <%
