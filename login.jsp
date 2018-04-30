@@ -45,7 +45,7 @@
             <div class="form-group" id="butDiv">
                 <div class="col-md-5 col-md-offset-3">
                     <button type="submit" id="subBut" class="btn btn-xs btn-primary">登录</button>
-                    <button type="reset" id="rstBut" class="btn btn-xs btn-warning">注册</button>
+                    <button type="reset" id="rstBut" class="btn btn-xs btn-warning">重置</button>
                 </div>
             </div>
 
