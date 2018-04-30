@@ -9,8 +9,10 @@
 <html>
 <head>
     <title>欢迎来到ZJQ的主界面</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width,inital-scale=1">
+    <script type="text/javascript" src="JavaScript/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <link href="bootstrap-3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <style type="text/css">
         h1 {
             text-align: center;
