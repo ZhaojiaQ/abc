@@ -72,11 +72,11 @@
         <div class="col-md-4" align="center">
             </br>
             <p>已有账号？</p>
-            <a href="login.html">点击进入网站的登录页面</a>
+            <a href="login.jsp">点击进入网站的登录页面</a>
             </br>
             </br>
             <p>你还没有账号吗？</p>
-            <a href="#">点击进入网站的注册界面</a>
+            <a href="register.html">点击进入网站的注册界面</a>
         </div>
         <div class="col-md-4">
             <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450
