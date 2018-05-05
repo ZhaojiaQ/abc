@@ -5,7 +5,7 @@
   Time: 上午1:11
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <%@page import="java.sql.Connection" %>
 <%@ page import="java.sql.DriverManager" %>
 <%@ page import="java.sql.PreparedStatement" %>
@@ -20,7 +20,7 @@
 </head>
 <body>
 <%
-    //接受login界面的表单信息
+    //接收login界面的表单信息
     String userName = request.getParameter("userName");
     String password = request.getParameter("password");
 %>
